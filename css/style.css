@@ -440,7 +440,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
 
-  background-image: url(/img/banner/b20.jpg);
+  background-image: url(/img/banner/b2.jpg);
 
   background-repeat: no-repeat;
   background-position: 20% 30%;
@@ -798,7 +798,7 @@ footer div.copyright {
 
 /*shop page*/
 #page-header {
-  background-image: url(/img/banner/b1.jpg);
+  background-image: url(/img/banner/b2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -1111,3 +1111,107 @@ section#page-header.about-header{
   font-weight: 600;
   color: #000;
 }
+
+/*Cart page*/
+#cart{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#page-header.cart-header{
+  background-image: url(/img/banner/b16.jpg);
+}
+
+#cart table img{
+  width: 70px;
+}
+
+#cart table td:nth-child(1){
+  width: 100px;
+  text-align: center;
+}
+
+#cart table td:nth-child(2){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(3){
+  width: 250px;
+  text-align: center;
+
+}
+
+#cart table td:nth-child(4)
+#cart table td:nth-child(5)
+#cart table td:nth-child(6){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+  width: 60px;
+  padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+  border: 2px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+#cart table tbody tr td{
+  padding-top: 15px;
+}
+
+#cart table tbody td{
+  font-size: 13px;
+}
+
+#cart table tbody td a{
+  color: #000;
+}
+
+#cart table tbody td a:hover{
+  color: #088178;
+}
+
+#cart-total{
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 20px 100px;
+  margin-bottom: 100px;
+
+}
+
+#subtotal{
+  width: 250px;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 10px 10px 1px;
+  padding: 20px;
+}
+
+#subtotal h4{
+  color: #088178;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#subtotal h6{
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 15px;
+}
+
